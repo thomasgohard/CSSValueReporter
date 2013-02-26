@@ -14,14 +14,14 @@ dl.kv-pair dt {
 	font-weight: bold;
 	margin: 0;
 	padding: 0.15em 3px;
-	width: 10em;
+	width: 15em;
 	clear: left;
 	float: left;
 }
 
 dl.kv-pair dd {
 	background: #f00;
-	margin: 0 0 0 10em;
+	margin: 0 0 0 15em;
 	padding: 0.15em 3px;
 	clear: none;
 }
