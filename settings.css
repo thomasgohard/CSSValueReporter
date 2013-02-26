@@ -1,8 +1,9 @@
 @charset "utf-8";
 
 /* default */
-span {
-	display: block;
+.setting {
+	display: none;
+	visibility: hidden;
 	margin: 0 1.5em;
 	padding: 0;
 }
@@ -13,46 +14,16 @@ span {
 		display: block;
 		visibility: visible;
 	}
-	
-	.tablet-view {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.desktop-view {
-		display: none;
-		visibility: hidden;
-	}
 }
 
 @media (min-width: 768px) and (max-width: 959px) {
-	.mobile-view {
-		display: none;
-		visibility: hidden;
-	}
-	
 	.tablet-view {
 		display: block;
 		visibility: visible;
 	}
-	
-	.desktop-view {
-		display: none;
-		visibility: hidden;
-	}
 }
 
-@media (min-width: 960px) {
-	.mobile-view {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.tablet-view {
-		display: none;
-		visibility: hidden;
-	}
-	
+@media (min-width: 960px) {	
 	.desktop-view {
 		display: block;
 		visibility: visible;
@@ -65,46 +36,16 @@ span {
 		display: block;
 		visibility: visible;
 	}
-	
-	.tablet-device-view {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.desktop-device-view {
-		display: none;
-		visibility: hidden;
-	}
 }
 
 @media (min-device-width: 768px) and (max-device-width: 959px) {
-	.mobile-device-view {
-		display: none;
-		visibility: hidden;
-	}
-	
 	.tablet-device-view {
 		display: block;
 		visibility: visible;
 	}
-	
-	.desktop-device-view {
-		display: none;
-		visibility: hidden;
-	}
 }
 
 @media (min-device-width: 960px) {
-	.mobile-device-view {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.tablet-device-view {
-		display: none;
-		visibility: hidden;
-	}
-	
 	.desktop-device-view {
 		display: block;
 		visibility: visible;
@@ -118,7 +59,7 @@ span {
 		visibility: visible;
 	}
 	
-	.media-type-braille {
+	/*.media-type-braille {
 		display: none;
 		visibility: hidden;
 	}
@@ -161,21 +102,21 @@ span {
 	.media-type-tv {
 		display: none;
 		visibility: hidden;
-	}
+	}*/
 }
 
 @media braille {
-	.media-type-all {
+	/*.media-type-all {
 		display: none;
 		visibility: hidden;
-	}
+	}*/
 	
 	.media-type-braille {
 		display: block;
 		visibility: visible;
 	}
 	
-	.media-type-embossed {
+	/*.media-type-embossed {
 		display: none;
 		visibility: hidden;
 	}
@@ -213,11 +154,11 @@ span {
 	.media-type-tv {
 		display: none;
 		visibility: hidden;
-	}
+	}*/
 }
 
 @media embossed {
-	.media-type-all {
+	/*.media-type-all {
 		display: none;
 		visibility: hidden;
 	}
@@ -225,14 +166,14 @@ span {
 	.media-type-braille {
 		display: none;
 		visibility: hidden;
-	}
+	}*/
 	
 	.media-type-embossed {
 		display: block;
 		visibility: visible;
 	}
 	
-	.media-type-handheld {
+	/*.media-type-handheld {
 		display: none;
 		visibility: hidden;
 	}
@@ -265,11 +206,11 @@ span {
 	.media-type-tv {
 		display: none;
 		visibility: hidden;
-	}
+	}*/
 }
 
 @media handheld {
-	.media-type-all {
+	/*.media-type-all {
 		display: none;
 		visibility: hidden;
 	}
@@ -282,14 +223,14 @@ span {
 	.media-type-embossed {
 		display: none;
 		visibility: hidden;
-	}
+	}*/
 	
 	.media-type-handheld {
 		display: block;
 		visibility: visible;
 	}
 	
-	.media-type-print {
+	/*.media-type-print {
 		display: none;
 		visibility: hidden;
 	}
@@ -317,11 +258,11 @@ span {
 	.media-type-tv {
 		display: none;
 		visibility: hidden;
-	}
+	}*/
 }
 
 @media print {
-	.media-type-all {
+	/*.media-type-all {
 		display: none;
 		visibility: hidden;
 	}
@@ -339,14 +280,14 @@ span {
 	.media-type-handheld {
 		display: none;
 		visibility: hidden;
-	}
+	}*/
 	
 	.media-type-print {
 		display: block;
 		visibility: visible;
 	}
 	
-	.media-type-projection {
+	/*.media-type-projection {
 		display: none;
 		visibility: hidden;
 	}
@@ -369,11 +310,11 @@ span {
 	.media-type-tv {
 		display: none;
 		visibility: hidden;
-	}
+	}*/
 }
 
 @media projection {
-	.media-type-all {
+	/*.media-type-all {
 		display: none;
 		visibility: hidden;
 	}
@@ -396,14 +337,14 @@ span {
 	.media-type-print {
 		display: none;
 		visibility: hidden;
-	}
+	}*/
 	
 	.media-type-projection {
 		display: block;
 		visibility: visible;
 	}
 	
-	.media-type-screen {
+	/*.media-type-screen {
 		display: none;
 		visibility: hidden;
 	}
@@ -421,11 +362,11 @@ span {
 	.media-type-tv {
 		display: none;
 		visibility: hidden;
-	}
+	}*/
 }
 
 @media screen {
-	.media-type-all {
+	/*.media-type-all {
 		display: none;
 		visibility: hidden;
 	}
@@ -453,14 +394,14 @@ span {
 	.media-type-projection {
 		display: none;
 		visibility: hidden;
-	}
+	}*/
 	
 	.media-type-screen {
 		display: block;
 		visibility: visible;
 	}
 	
-	.media-type-speech {
+	/*.media-type-speech {
 		display: none;
 		visibility: hidden;
 	}
@@ -473,11 +414,11 @@ span {
 	.media-type-tv {
 		display: none;
 		visibility: hidden;
-	}
+	}*/
 }
 
 @media speech {
-	.media-type-all {
+	/*.media-type-all {
 		display: none;
 		visibility: hidden;
 	}
@@ -510,14 +451,14 @@ span {
 	.media-type-screen {
 		display: none;
 		visibility: hidden;
-	}
+	}*/
 	
 	.media-type-speech {
 		display: block;
 		visibility: visible;
 	}
 	
-	.media-type-tty {
+	/*.media-type-tty {
 		display: none;
 		visibility: hidden;
 	}
@@ -525,11 +466,11 @@ span {
 	.media-type-tv {
 		display: none;
 		visibility: hidden;
-	}
+	}*/
 }
 
 @media tty {
-	.media-type-all {
+	/*.media-type-all {
 		display: none;
 		visibility: hidden;
 	}
@@ -567,21 +508,21 @@ span {
 	.media-type-speech {
 		display: none;
 		visibility: hidden;
-	}
+	}*/
 	
 	.media-type-tty {
 		display: block;
 		visibility: visible;
 	}
 	
-	.media-type-tv {
+	/*.media-type-tv {
 		display: none;
 		visibility: hidden;
-	}
+	}*/
 }
 
 @media tv {
-	.media-type-all {
+	/*.media-type-all {
 		display: none;
 		visibility: hidden;
 	}
@@ -624,7 +565,7 @@ span {
 	.media-type-tty {
 		display: none;
 		visibility: hidden;
-	}
+	}*/
 	
 	.media-type-tv {
 		display: block;
