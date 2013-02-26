@@ -58,515 +58,65 @@
 		display: block;
 		visibility: visible;
 	}
-	
-	/*.media-type-braille {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-embossed {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-handheld {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-print {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-projection {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-screen {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-speech {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-tty {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-tv {
-		display: none;
-		visibility: hidden;
-	}*/
 }
 
 @media braille {
-	/*.media-type-all {
-		display: none;
-		visibility: hidden;
-	}*/
-	
 	.media-type-braille {
 		display: block;
 		visibility: visible;
 	}
-	
-	/*.media-type-embossed {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-handheld {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-print {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-projection {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-screen {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-speech {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-tty {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-tv {
-		display: none;
-		visibility: hidden;
-	}*/
 }
 
 @media embossed {
-	/*.media-type-all {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-braille {
-		display: none;
-		visibility: hidden;
-	}*/
-	
 	.media-type-embossed {
 		display: block;
 		visibility: visible;
 	}
-	
-	/*.media-type-handheld {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-print {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-projection {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-screen {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-speech {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-tty {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-tv {
-		display: none;
-		visibility: hidden;
-	}*/
 }
 
-@media handheld {
-	/*.media-type-all {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-braille {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-embossed {
-		display: none;
-		visibility: hidden;
-	}*/
-	
+@media handheld {	
 	.media-type-handheld {
 		display: block;
 		visibility: visible;
 	}
-	
-	/*.media-type-print {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-projection {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-screen {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-speech {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-tty {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-tv {
-		display: none;
-		visibility: hidden;
-	}*/
 }
 
 @media print {
-	/*.media-type-all {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-braille {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-embossed {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-handheld {
-		display: none;
-		visibility: hidden;
-	}*/
-	
 	.media-type-print {
 		display: block;
 		visibility: visible;
 	}
-	
-	/*.media-type-projection {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-screen {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-speech {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-tty {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-tv {
-		display: none;
-		visibility: hidden;
-	}*/
 }
 
 @media projection {
-	/*.media-type-all {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-braille {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-embossed {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-handheld {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-print {
-		display: none;
-		visibility: hidden;
-	}*/
-	
 	.media-type-projection {
 		display: block;
 		visibility: visible;
 	}
-	
-	/*.media-type-screen {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-speech {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-tty {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-tv {
-		display: none;
-		visibility: hidden;
-	}*/
 }
 
 @media screen {
-	/*.media-type-all {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-braille {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-embossed {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-handheld {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-print {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-projection {
-		display: none;
-		visibility: hidden;
-	}*/
-	
 	.media-type-screen {
 		display: block;
 		visibility: visible;
 	}
-	
-	/*.media-type-speech {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-tty {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-tv {
-		display: none;
-		visibility: hidden;
-	}*/
 }
 
 @media speech {
-	/*.media-type-all {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-braille {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-embossed {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-handheld {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-print {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-projection {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-screen {
-		display: none;
-		visibility: hidden;
-	}*/
-	
 	.media-type-speech {
 		display: block;
 		visibility: visible;
 	}
-	
-	/*.media-type-tty {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-tv {
-		display: none;
-		visibility: hidden;
-	}*/
 }
 
 @media tty {
-	/*.media-type-all {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-braille {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-embossed {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-handheld {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-print {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-projection {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-screen {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-speech {
-		display: none;
-		visibility: hidden;
-	}*/
-	
 	.media-type-tty {
 		display: block;
 		visibility: visible;
 	}
-	
-	/*.media-type-tv {
-		display: none;
-		visibility: hidden;
-	}*/
 }
 
 @media tv {
-	/*.media-type-all {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-braille {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-embossed {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-handheld {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-print {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-projection {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-screen {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-speech {
-		display: none;
-		visibility: hidden;
-	}
-	
-	.media-type-tty {
-		display: none;
-		visibility: hidden;
-	}*/
-	
 	.media-type-tv {
 		display: block;
 		visibility: visible;
