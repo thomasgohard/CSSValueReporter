@@ -52,6 +52,511 @@
 	}
 }
 
+/* pixel ratio */
+@media (-webkit-min-device-pixel-ratio: 1.0),
+	   (   min--moz-device-pixel-ratio: 1.0),
+	   (	 -o-min-device-pixel-ratio: 10/10),
+	   (		min-device-pixel-ratio: 1.0),
+	   (				min-resolution: 96dpi),
+	   (				min-resolution: 1dppx) {
+	.min-pixel-ratio-10 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.1),
+	   (   min--moz-device-pixel-ratio: 1.1),
+	   (	 -o-min-device-pixel-ratio: 11/10),
+	   (		min-device-pixel-ratio: 1.1),
+	   (				min-resolution: 106dpi),
+	   (				min-resolution: 1.1dppx) {
+	.min-pixel-ratio-11 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.2),
+	   (   min--moz-device-pixel-ratio: 1.2),
+	   (	 -o-min-device-pixel-ratio: 12/10),
+	   (		min-device-pixel-ratio: 1.2),
+	   (				min-resolution: 115dpi),
+	   (				min-resolution: 1.2dppx) {
+	.min-pixel-ratio-12 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.3),
+	   (   min--moz-device-pixel-ratio: 1.3),
+	   (	 -o-min-device-pixel-ratio: 13/10),
+	   (		min-device-pixel-ratio: 1.3),
+	   (				min-resolution: 125dpi),
+	   (				min-resolution: 1.3dppx) {
+	.min-pixel-ratio-13 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.4),
+	   (   min--moz-device-pixel-ratio: 1.4),
+	   (	 -o-min-device-pixel-ratio: 14/10),
+	   (		min-device-pixel-ratio: 1.4),
+	   (				min-resolution: 134dpi),
+	   (				min-resolution: 1.4dppx) {
+	.min-pixel-ratio-14 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+	   (   min--moz-device-pixel-ratio: 1.5),
+	   (	 -o-min-device-pixel-ratio: 15/10),
+	   (		min-device-pixel-ratio: 1.5),
+	   (				min-resolution: 144dpi),
+	   (				min-resolution: 1.5dppx) {
+	.min-pixel-ratio-15 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.6),
+	   (   min--moz-device-pixel-ratio: 1.6),
+	   (	 -o-min-device-pixel-ratio: 16/10),
+	   (		min-device-pixel-ratio: 1.6),
+	   (				min-resolution: 154dpi),
+	   (				min-resolution: 1.6dppx) {
+	.min-pixel-ratio-16 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.7),
+	   (   min--moz-device-pixel-ratio: 1.7),
+	   (	 -o-min-device-pixel-ratio: 17/10),
+	   (		min-device-pixel-ratio: 1.7),
+	   (				min-resolution: 163dpi),
+	   (				min-resolution: 1.7dppx) {
+	.min-pixel-ratio-17 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.8),
+	   (   min--moz-device-pixel-ratio: 1.8),
+	   (	 -o-min-device-pixel-ratio: 18/10),
+	   (		min-device-pixel-ratio: 1.8),
+	   (				min-resolution: 173dpi),
+	   (				min-resolution: 1.8dppx) {
+	.min-pixel-ratio-18 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.9),
+	   (   min--moz-device-pixel-ratio: 1.9),
+	   (	 -o-min-device-pixel-ratio: 19/10),
+	   (		min-device-pixel-ratio: 1.9),
+	   (				min-resolution: 182dpi),
+	   (				min-resolution: 1.9dppx) {
+	.min-pixel-ratio-19 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 2.0),
+	   (   min--moz-device-pixel-ratio: 2.0),
+	   (	 -o-min-device-pixel-ratio: 20/10),
+	   (		min-device-pixel-ratio: 2.0),
+	   (				min-resolution: 192dpi),
+	   (				min-resolution: 2.0dppx) {
+	.min-pixel-ratio-20 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 2.1),
+	   (   min--moz-device-pixel-ratio: 2.1),
+	   (	 -o-min-device-pixel-ratio: 21/10),
+	   (		min-device-pixel-ratio: 2.1),
+	   (				min-resolution: 202dpi),
+	   (				min-resolution: 2.1dppx) {
+	.min-pixel-ratio-21 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 2.2),
+	   (   min--moz-device-pixel-ratio: 2.2),
+	   (	 -o-min-device-pixel-ratio: 22/10),
+	   (		min-device-pixel-ratio: 2.2),
+	   (				min-resolution: 211dpi),
+	   (				min-resolution: 2.2dppx) {
+	.min-pixel-ratio-22 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 2.3),
+	   (   min--moz-device-pixel-ratio: 2.3),
+	   (	 -o-min-device-pixel-ratio: 23/10),
+	   (		min-device-pixel-ratio: 2.3),
+	   (				min-resolution: 221dpi),
+	   (				min-resolution: 2.3dppx) {
+	.min-pixel-ratio-23 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 2.4),
+	   (   min--moz-device-pixel-ratio: 2.4),
+	   (	 -o-min-device-pixel-ratio: 24/10),
+	   (		min-device-pixel-ratio: 2.4),
+	   (				min-resolution: 230dpi),
+	   (				min-resolution: 2.4dppx) {
+	.min-pixel-ratio-24 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 2.5),
+	   (   min--moz-device-pixel-ratio: 2.5),
+	   (	 -o-min-device-pixel-ratio: 25/10),
+	   (		min-device-pixel-ratio: 2.5),
+	   (				min-resolution: 240dpi),
+	   (				min-resolution: 2.5dppx) {
+	.min-pixel-ratio-25 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 2.6),
+	   (   min--moz-device-pixel-ratio: 2.6),
+	   (	 -o-min-device-pixel-ratio: 26/10),
+	   (		min-device-pixel-ratio: 2.6),
+	   (				min-resolution: 250dpi),
+	   (				min-resolution: 2.6dppx) {
+	.min-pixel-ratio-26 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 2.7),
+	   (   min--moz-device-pixel-ratio: 2.7),
+	   (	 -o-min-device-pixel-ratio: 27/10),
+	   (		min-device-pixel-ratio: 2.7),
+	   (				min-resolution: 259dpi),
+	   (				min-resolution: 2.7dppx) {
+	.min-pixel-ratio-27 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 2.8),
+	   (   min--moz-device-pixel-ratio: 2.8),
+	   (	 -o-min-device-pixel-ratio: 28/10),
+	   (		min-device-pixel-ratio: 2.8),
+	   (				min-resolution: 269dpi),
+	   (				min-resolution: 2.8dppx) {
+	.min-pixel-ratio-28 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 2.9),
+	   (   min--moz-device-pixel-ratio: 2.9),
+	   (	 -o-min-device-pixel-ratio: 29/10),
+	   (		min-device-pixel-ratio: 2.9),
+	   (				min-resolution: 278dpi),
+	   (				min-resolution: 2.9dppx) {
+	.min-pixel-ratio-29 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 3.0),
+	   (   min--moz-device-pixel-ratio: 3.0),
+	   (	 -o-min-device-pixel-ratio: 30/10),
+	   (		min-device-pixel-ratio: 3.0),
+	   (				min-resolution: 288dpi),
+	   (				min-resolution: 3.0dppx) {
+	.min-pixel-ratio-30 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-max-device-pixel-ratio: 1.0),
+	   (   max--moz-device-pixel-ratio: 1.0),
+	   (	 -o-max-device-pixel-ratio: 10/10),
+	   (		max-device-pixel-ratio: 1.0),
+	   (				max-resolution: 96dpi),
+	   (				max-resolution: 1dppx) {
+	.max-pixel-ratio-10 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-max-device-pixel-ratio: 1.1),
+	   (   max--moz-device-pixel-ratio: 1.1),
+	   (	 -o-max-device-pixel-ratio: 11/10),
+	   (		max-device-pixel-ratio: 1.1),
+	   (				max-resolution: 106dpi),
+	   (				max-resolution: 1.1dppx) {
+	.max-pixel-ratio-11 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-max-device-pixel-ratio: 1.2),
+	   (   max--moz-device-pixel-ratio: 1.2),
+	   (	 -o-max-device-pixel-ratio: 12/10),
+	   (		max-device-pixel-ratio: 1.2),
+	   (				max-resolution: 115dpi),
+	   (				max-resolution: 1.2dppx) {
+	.max-pixel-ratio-12 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-max-device-pixel-ratio: 1.3),
+	   (   max--moz-device-pixel-ratio: 1.3),
+	   (	 -o-max-device-pixel-ratio: 13/10),
+	   (		max-device-pixel-ratio: 1.3),
+	   (				max-resolution: 125dpi),
+	   (				max-resolution: 1.3dppx) {
+	.max-pixel-ratio-13 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-max-device-pixel-ratio: 1.4),
+	   (   max--moz-device-pixel-ratio: 1.4),
+	   (	 -o-max-device-pixel-ratio: 14/10),
+	   (		max-device-pixel-ratio: 1.4),
+	   (				max-resolution: 134dpi),
+	   (				max-resolution: 1.4dppx) {
+	.max-pixel-ratio-14 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-max-device-pixel-ratio: 1.5),
+	   (   max--moz-device-pixel-ratio: 1.5),
+	   (	 -o-max-device-pixel-ratio: 15/10),
+	   (		max-device-pixel-ratio: 1.5),
+	   (				max-resolution: 144dpi),
+	   (				max-resolution: 1.5dppx) {
+	.max-pixel-ratio-15 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-max-device-pixel-ratio: 1.6),
+	   (   max--moz-device-pixel-ratio: 1.6),
+	   (	 -o-max-device-pixel-ratio: 16/10),
+	   (		max-device-pixel-ratio: 1.6),
+	   (				max-resolution: 154dpi),
+	   (				max-resolution: 1.6dppx) {
+	.max-pixel-ratio-16 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-max-device-pixel-ratio: 1.7),
+	   (   max--moz-device-pixel-ratio: 1.7),
+	   (	 -o-max-device-pixel-ratio: 17/10),
+	   (		max-device-pixel-ratio: 1.7),
+	   (				max-resolution: 163dpi),
+	   (				max-resolution: 1.7dppx) {
+	.max-pixel-ratio-17 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-max-device-pixel-ratio: 1.8),
+	   (   max--moz-device-pixel-ratio: 1.8),
+	   (	 -o-max-device-pixel-ratio: 18/10),
+	   (		max-device-pixel-ratio: 1.8),
+	   (				max-resolution: 173dpi),
+	   (				max-resolution: 1.8dppx) {
+	.max-pixel-ratio-18 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-max-device-pixel-ratio: 1.9),
+	   (   max--moz-device-pixel-ratio: 1.9),
+	   (	 -o-max-device-pixel-ratio: 19/10),
+	   (		max-device-pixel-ratio: 1.9),
+	   (				max-resolution: 182dpi),
+	   (				max-resolution: 1.9dppx) {
+	.max-pixel-ratio-19 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-max-device-pixel-ratio: 2.0),
+	   (   max--moz-device-pixel-ratio: 2.0),
+	   (	 -o-max-device-pixel-ratio: 20/10),
+	   (		max-device-pixel-ratio: 2.0),
+	   (				max-resolution: 192dpi),
+	   (				max-resolution: 2.0dppx) {
+	.max-pixel-ratio-20 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-max-device-pixel-ratio: 2.1),
+	   (   max--moz-device-pixel-ratio: 2.1),
+	   (	 -o-max-device-pixel-ratio: 21/10),
+	   (		max-device-pixel-ratio: 2.1),
+	   (				max-resolution: 202dpi),
+	   (				max-resolution: 2.1dppx) {
+	.max-pixel-ratio-21 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-max-device-pixel-ratio: 2.2),
+	   (   max--moz-device-pixel-ratio: 2.2),
+	   (	 -o-max-device-pixel-ratio: 22/10),
+	   (		max-device-pixel-ratio: 2.2),
+	   (				max-resolution: 211dpi),
+	   (				max-resolution: 2.2dppx) {
+	.max-pixel-ratio-22 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-max-device-pixel-ratio: 2.3),
+	   (   max--moz-device-pixel-ratio: 2.3),
+	   (	 -o-max-device-pixel-ratio: 23/10),
+	   (		max-device-pixel-ratio: 2.3),
+	   (				max-resolution: 221dpi),
+	   (				max-resolution: 2.3dppx) {
+	.max-pixel-ratio-23 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-max-device-pixel-ratio: 2.4),
+	   (   max--moz-device-pixel-ratio: 2.4),
+	   (	 -o-max-device-pixel-ratio: 24/10),
+	   (		max-device-pixel-ratio: 2.4),
+	   (				max-resolution: 230dpi),
+	   (				max-resolution: 2.4dppx) {
+	.max-pixel-ratio-24 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-max-device-pixel-ratio: 2.5),
+	   (   max--moz-device-pixel-ratio: 2.5),
+	   (	 -o-max-device-pixel-ratio: 25/10),
+	   (		max-device-pixel-ratio: 2.5),
+	   (				max-resolution: 240dpi),
+	   (				max-resolution: 2.5dppx) {
+	.max-pixel-ratio-25 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-max-device-pixel-ratio: 2.6),
+	   (   max--moz-device-pixel-ratio: 2.6),
+	   (	 -o-max-device-pixel-ratio: 26/10),
+	   (		max-device-pixel-ratio: 2.6),
+	   (				max-resolution: 250dpi),
+	   (				max-resolution: 2.6dppx) {
+	.max-pixel-ratio-26 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-max-device-pixel-ratio: 2.7),
+	   (   max--moz-device-pixel-ratio: 2.7),
+	   (	 -o-max-device-pixel-ratio: 27/10),
+	   (		max-device-pixel-ratio: 2.7),
+	   (				max-resolution: 259dpi),
+	   (				max-resolution: 2.7dppx) {
+	.max-pixel-ratio-27 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-max-device-pixel-ratio: 2.8),
+	   (   max--moz-device-pixel-ratio: 2.8),
+	   (	 -o-max-device-pixel-ratio: 28/10),
+	   (		max-device-pixel-ratio: 2.8),
+	   (				max-resolution: 269dpi),
+	   (				max-resolution: 2.8dppx) {
+	.max-pixel-ratio-28 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-max-device-pixel-ratio: 2.9),
+	   (   max--moz-device-pixel-ratio: 2.9),
+	   (	 -o-max-device-pixel-ratio: 29/10),
+	   (		max-device-pixel-ratio: 2.9),
+	   (				max-resolution: 278dpi),
+	   (				max-resolution: 2.9dppx) {
+	.max-pixel-ratio-29 {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (-webkit-max-device-pixel-ratio: 3.0),
+	   (   max--moz-device-pixel-ratio: 3.0),
+	   (	 -o-max-device-pixel-ratio: 30/10),
+	   (		max-device-pixel-ratio: 3.0),
+	   (				max-resolution: 288dpi),
+	   (				max-resolution: 3.0dppx) {
+	.max-pixel-ratio-30 {
+		display: block;
+		visibility: visible;
+	}
+}
+
 /* @media types */
 @media all {
 	.media-type-all {
