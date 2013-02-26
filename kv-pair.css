@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+dl.kv-pair, dl.kv-pair dt, dl.kv-pair dd {
+	display: block;
+}
+
+dl.kv-pair dt, dl.kv-pair dd {
+	border-top: 1px solid #999;
+}
+
+dl.kv-pair dt {
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	margin: 0;
+	padding: 0.15em 3px;
+	width: 10em;
+	clear: left;
+	float: left;
+}
+
+dl.kv-pair dd {
+	background: #f00;
+	margin: 0 0 0 10em;
+	padding: 0.15em 3px;
+	clear: none;
+}
+
+dl.kv-pair dd:after {
+	clear: left;
+	display: block;
+	content: '';
+	height: 0;
+	visibility: hidden;
+}

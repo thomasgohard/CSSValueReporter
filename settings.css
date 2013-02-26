@@ -1,0 +1,633 @@
+@charset "utf-8";
+
+/* default */
+span {
+	display: block;
+	margin: 0 1.5em;
+	padding: 0;
+}
+
+/* min- and max-width */
+@media (max-width: 767px) {
+	.mobile-view {
+		display: block;
+		visibility: visible;
+	}
+	
+	.tablet-view {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.desktop-view {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 959px) {
+	.mobile-view {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.tablet-view {
+		display: block;
+		visibility: visible;
+	}
+	
+	.desktop-view {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media (min-width: 960px) {
+	.mobile-view {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.tablet-view {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.desktop-view {
+		display: block;
+		visibility: visible;
+	}
+}
+
+/* min-device- and max-device-width */
+@media (max-device-width: 767px) {
+	.mobile-device-view {
+		display: block;
+		visibility: visible;
+	}
+	
+	.tablet-device-view {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.desktop-device-view {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media (min-device-width: 768px) and (max-device-width: 959px) {
+	.mobile-device-view {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.tablet-device-view {
+		display: block;
+		visibility: visible;
+	}
+	
+	.desktop-device-view {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media (min-device-width: 960px) {
+	.mobile-device-view {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.tablet-device-view {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.desktop-device-view {
+		display: block;
+		visibility: visible;
+	}
+}
+
+/* @media types */
+@media all {
+	.media-type-all {
+		display: block;
+		visibility: visible;
+	}
+	
+	.media-type-braille {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-embossed {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-handheld {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-print {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-projection {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-screen {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-speech {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-tty {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-tv {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media braille {
+	.media-type-all {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-braille {
+		display: block;
+		visibility: visible;
+	}
+	
+	.media-type-embossed {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-handheld {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-print {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-projection {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-screen {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-speech {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-tty {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-tv {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media embossed {
+	.media-type-all {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-braille {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-embossed {
+		display: block;
+		visibility: visible;
+	}
+	
+	.media-type-handheld {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-print {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-projection {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-screen {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-speech {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-tty {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-tv {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media handheld {
+	.media-type-all {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-braille {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-embossed {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-handheld {
+		display: block;
+		visibility: visible;
+	}
+	
+	.media-type-print {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-projection {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-screen {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-speech {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-tty {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-tv {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media print {
+	.media-type-all {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-braille {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-embossed {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-handheld {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-print {
+		display: block;
+		visibility: visible;
+	}
+	
+	.media-type-projection {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-screen {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-speech {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-tty {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-tv {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media projection {
+	.media-type-all {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-braille {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-embossed {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-handheld {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-print {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-projection {
+		display: block;
+		visibility: visible;
+	}
+	
+	.media-type-screen {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-speech {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-tty {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-tv {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media screen {
+	.media-type-all {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-braille {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-embossed {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-handheld {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-print {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-projection {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-screen {
+		display: block;
+		visibility: visible;
+	}
+	
+	.media-type-speech {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-tty {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-tv {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media speech {
+	.media-type-all {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-braille {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-embossed {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-handheld {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-print {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-projection {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-screen {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-speech {
+		display: block;
+		visibility: visible;
+	}
+	
+	.media-type-tty {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-tv {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media tty {
+	.media-type-all {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-braille {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-embossed {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-handheld {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-print {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-projection {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-screen {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-speech {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-tty {
+		display: block;
+		visibility: visible;
+	}
+	
+	.media-type-tv {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media tv {
+	.media-type-all {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-braille {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-embossed {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-handheld {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-print {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-projection {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-screen {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-speech {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-tty {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.media-type-tv {
+		display: block;
+		visibility: visible;
+	}
+}

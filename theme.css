@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+body {
+	background-color: #fff;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+code {
+	font-size: 130%;
+	font-weight: normal;
+}
