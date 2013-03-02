@@ -797,6 +797,21 @@
 	}
 }
 
+/* orientation */
+@media (orientation: portrait) {
+	.orientation-portrait {
+		display: block;
+		visibility: visible;
+	}
+}
+
+@media (orientation: landscape) {
+	.orientation-landscape {
+		display: block;
+		visibility: visible;
+	}
+}
+
 /* @media types */
 @media all {
 	.media-type-all {
