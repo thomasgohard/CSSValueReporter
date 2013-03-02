@@ -1,3 +1,9 @@
+/*
+ *	CSS value reporter
+ *	(c) 2013 Thomas Gohard
+ *	License: thomasgohard.github.com/CSSValueReporter/license
+ */
+
 @charset "utf-8";
 
 dl.kv-pair, dl.kv-pair dt, dl.kv-pair dd {
