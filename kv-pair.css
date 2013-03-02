@@ -33,3 +33,13 @@ dl.kv-pair dd:after {
 	height: 0;
 	visibility: hidden;
 }
+
+@media (max-width: 20em) {
+	dl.kv-pair dt {
+		width: 7.5em;
+	}
+
+	dl.kv-pair dd {
+		margin-left: 7.5em;
+	}
+}
