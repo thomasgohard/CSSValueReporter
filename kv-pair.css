@@ -34,12 +34,42 @@ dl.kv-pair dd:after {
 	visibility: hidden;
 }
 
-@media (max-width: 20em) {
+@media (min-width: 15em) {
+	dl.kv-pair dt {
+		width: 5em;
+	}
+
+	dl.kv-pair dd {
+		margin-left: 5em;
+	}
+}
+
+@media (min-width: 20em) {
 	dl.kv-pair dt {
 		width: 7.5em;
 	}
 
 	dl.kv-pair dd {
 		margin-left: 7.5em;
+	}
+}
+
+@media (min-width: 30em) {
+	dl.kv-pair dt {
+		width: 10em;
+	}
+
+	dl.kv-pair dd {
+		margin-left: 10em;
+	}
+}
+
+@media (min-width: 40em) {
+	dl.kv-pair dt {
+		width: 15em;
+	}
+
+	dl.kv-pair dd {
+		margin-left: 15em;
 	}
 }
