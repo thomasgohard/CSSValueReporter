@@ -1,0 +1,81 @@
+/*
+ *	CSS value reporter
+ *	(c) 2013 Thomas Gohard
+ *	License: thomasgohard.github.com/CSSValueReporter/license
+ */
+
+@charset "utf-8";
+
+dl.kv-pair, dl.kv-pair dt, dl.kv-pair dd {
+	display: block;
+}
+
+dl.kv-pair dt, dl.kv-pair dd {
+	border-top: 1px solid #999;
+}
+
+dl.kv-pair dt {
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	margin: 0;
+	padding: 0.15em 3px;
+	width: 15em;
+	clear: left;
+	float: left;
+}
+
+dl.kv-pair dd {
+	background: #f00;
+	margin: 0 0 0 15em;
+	padding: 0.15em 3px;
+	clear: none;
+}
+
+dl.kv-pair dd:after {
+	clear: left;
+	display: block;
+	content: '';
+	height: 0;
+	visibility: hidden;
+}
+
+@media (min-width: 15em) {
+	dl.kv-pair dt {
+		width: 5em;
+	}
+
+	dl.kv-pair dd {
+		margin-left: 5em;
+	}
+}
+
+@media (min-width: 20em) {
+	dl.kv-pair dt {
+		width: 7.5em;
+	}
+
+	dl.kv-pair dd {
+		margin-left: 7.5em;
+	}
+}
+
+@media (min-width: 30em) {
+	dl.kv-pair dt {
+		width: 10em;
+	}
+
+	dl.kv-pair dd {
+		margin-left: 10em;
+	}
+}
+
+@media (min-width: 40em) {
+	dl.kv-pair dt {
+		width: 15em;
+	}
+
+	dl.kv-pair dd {
+		margin-left: 15em;
+	}
+}

@@ -1,0 +1,21 @@
+/*
+ *	CSS value reporter
+ *	(c) 2013 Thomas Gohard
+ *	License: thomasgohard.github.com/CSSValueReporter/license
+ */
+
+@charset "utf-8";
+
+body {
+	background-color: #fff;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+code {
+	font-size: 130%;
+	font-weight: normal;
+}
